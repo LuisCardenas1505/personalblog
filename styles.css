@@ -65,6 +65,7 @@ nav ul li a {
     margin: 10px;
     padding: 20px;
     background-color: #fff; /* Blanco */
+    border-radius: 8px;
     box-shadow: 0 2px 5px #ccc; /* Sombra gris */
 }
 
