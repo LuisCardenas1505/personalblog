@@ -1,68 +1,126 @@
-body {
+/* Resetear los márgenes y rellenos predeterminados */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
     font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Blanco */
+    color: #333; /* Texto en tono gris oscuro */
+    line-height: 1.6;
 }
 
-.sidebar {
-    width: 200px;
-    background-color: #f0f0f0;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.sidebar nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-.sidebar nav ul li {
-    padding: 10px;
-}
-
-.sidebar nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-.sidebar nav ul li a:hover {
-    color: #000;
-}
-
-.content {
-    margin-left: 220px;
-    padding: 20px;
-}
-
-h1 {
-    margin-top: 0;
-}
-
-.articles {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
-
-article {
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+/* Estilos para el encabezado */
+header {
     text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    padding: 40px;
 }
+
+header h1 {
+    font-size: 36px;
+    color: #007bff; /* Azul */
+    background-color:#b3e0ff/* Celeste*/ ;
+}
+
+header p {
+    font-size: 18px;
+    color: #555; /* Tonos de gris */
+    margin-bottom: 20px;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #007bff; /* Azul */
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Estilos para la sección de habilidades */
+#skills {
+    padding: 40px;
+}
+
+.skill-card {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    box-shadow: 0 2px 5px #ccc; /* Sombra gris */
+}
+
+.skill-card h2 {
+    color: #007bff; /* Azul */
+}
+
+/* Estilos para la sección de trabajos realizados */
+#portfolio {
+    padding: 40px;
+}
+
+.portfolio-card {
+    text-align: center;
+    display: inline-block;
+    width: 23%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff; /* Blanco */
+    box-shadow: 0 2px 5px #ccc; /* Sombra gris */
+}
+
+.portfolio-card h2 {
+    color: #007bff; /* Azul */
+}
+
+/* Estilos para la sección de testimonios */
+#testimonials {
+    padding: 40px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Gris claro */
+    box-shadow: 0 2px 5px #ccc; /* Sombra gris */
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333; /* Gris oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+footer a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Paleta de colores */
+/* Blanco: #ffffff */
+/* Azul: #007bff */
+/* Celeste: #b3e0ff */
+/* Gris claro: #f0f0f0 */
+/* Gris oscuro: #333 */
+/* Tonos de gris: #ccc */

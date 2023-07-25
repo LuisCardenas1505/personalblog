@@ -1,68 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Nombre del Desarrollador - Portafolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="sidebar">
-        <nav>
-            <ul>
-                <li><a href="#main">Main</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#contenido">Contenido</a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <div class="content">
-        <h1 id="main">Página Principal</h1>
-        <p>Bienvenido a mi página web.</p>
-
-        <h2 id="contacto">Contacto</h2>
-        <p>Puedes contactarme en:</p>
+    <!-- Navegador -->
+    <nav>
         <ul>
-            <li>Email: contacto@ejemplo.com</li>
-            <li>Teléfono: (123) 456-7890</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#articles">Articles</a></li>
+            <li><a href="#contact">Get in touch</a></li>
         </ul>
+    </nav>
 
-        <h2 id="contenido">Contenido</h2>
-        <div class="articles">
-            <article>
-                <h3>Artículo 1</h3>
-                <img src="ruta/imagen1.jpg" alt="Imagen 1">
-                <p>Contenido del artículo 1...</p>
-            </article>
+    <!-- Título e imagen personal -->
+    <header>
+        <h1>Luis Cardenas Prado</h1>
+        <p>Hola soy Luis, un freelance Front -end Developer con 12 anos de experiencia comercial creando existosas websites</p>
+        <img src="ruta_de_la_imagen_personal.jpg" alt="Imagen personal">
+    </header>
 
-            <article>
-                <h3>Artículo 2</h3>
-                <img src="ruta/imagen2.jpg" alt="Imagen 2">
-                <p>Contenido del artículo 2...</p>
-            </article>
-
-            <article>
-                <h3>Artículo 3</h3>
-                <img src="ruta/imagen3.jpg" alt="Imagen 3">
-                <p>Contenido del artículo 3...</p>
-            </article>
-
-            <article>
-                <h3>Artículo 4</h3>
-                <img src="ruta/imagen4.jpg" alt="Imagen 4">
-                <p>Contenido del artículo 4...</p>
-            </article>
+    <!-- Sección de habilidades -->
+    <section id="skills">
+        <div class="skill-card">
+            <img src="ruta_de_imagen_frontend.jpg" alt="Front-end Development">
+            <h2>Front-end Development</h2>
+            <p>Descripción de habilidad Front-end Development.</p>
         </div>
-    </div>
+        <div class="skill-card">
+            <img src="ruta_de_imagen_performance_seo.jpg" alt="Performance & SEO">
+            <h2>Performance & SEO</h2>
+            <p>Descripción de habilidad Performance & SEO.</p>
+        </div>
+        <div class="skill-card">
+            <img src="ruta_de_imagen_wordpress.jpg" alt="WordPress Websites">
+            <h2>WordPress Websites</h2>
+            <p>Descripción de habilidad WordPress Websites.</p>
+        </div>
+    </section>
 
+    <!-- Sección de trabajos realizados -->
+    <section id="portfolio">
+        <div class="portfolio-card">
+            <img src="ruta_de_imagen_trabajo1.jpg" alt="Trabajo 1">
+            <h2>Trabajo 1</h2>
+            <p>Descripción breve del Trabajo 1.</p>
+        </div>
+        <div class="portfolio-card">
+            <img src="ruta_de_imagen_trabajo2.jpg" alt="Trabajo 2">
+            <h2>Trabajo 2</h2>
+            <p>Descripción breve del Trabajo 2.</p>
+        </div>
+        <div class="portfolio-card">
+            <img src="ruta_de_imagen_trabajo3.jpg" alt="Trabajo 3">
+            <h2>Trabajo 3</h2>
+            <p>Descripción breve del Trabajo 3.</p>
+        </div>
+        <div class="portfolio-card">
+            <img src="ruta_de_imagen_trabajo4.jpg" alt="Trabajo 4">
+            <h2>Trabajo 4</h2>
+            <p>Descripción breve del Trabajo 4.</p>
+        </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonials">
+        <div class="testimonial">
+            <p>Testimonio 1 sobre el trabajo realizado.</p>
+        </div>
+        <div class="testimonial">
+            <p>Testimonio 2 sobre el trabajo realizado.</p>
+        </div>
+        <div class="testimonial">
+            <p>Testimonio 3 sobre el trabajo realizado.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2023 Mi Página Web. Todos los derechos reservados.</p>
-        <p>Email: info@ejemplo.com | Teléfono: (987) 654-3210</p>
+        <div class="contact-info">
+            <p>Contacto: correo@example.com</p>
+            <p>Teléfono: 123-456-7890</p>
+        </div>
+        <div class="social-media">
+            <a href="#" target="_blank"><img src="ruta_de_icono_facebook.jpg" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="ruta_de_icono_twitter.jpg" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="ruta_de_icono_linkedin.jpg" alt="LinkedIn"></a>
+        </div>
+        <p>© 2023 Nombre del Desarrollador. Todos los derechos reservados.</p>
     </footer>
 </body>
-
 </html>
